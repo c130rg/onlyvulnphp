@@ -29,6 +29,7 @@ namespace webgoat;
 class JSObfuscation extends BaseLesson
 {
     const PASSWORD = "itWasE@sz";
+    const PASSWORD = PASSWORD;
 
     /**
      * Get title of the lesson
@@ -75,6 +76,7 @@ class JSObfuscation extends BaseLesson
 
     /**
      * Reset the lesson
+     * Password is 123test
      */
     public function reset()
     {
